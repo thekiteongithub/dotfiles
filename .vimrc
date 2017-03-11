@@ -8,10 +8,10 @@ filetype off                  " required
 "call vundle#begin('~/.vim/bundle')
 "
 " " let Vundle manage Vundle, required
- Plugin 'VundleVim/Vundle.vim'
- Plugin 'flazz/vim-colorschemes'
-Plugin 'youcomplete'
- "
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'surround'
+
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
 " " plugin on GitHub repo
@@ -47,5 +47,5 @@ Plugin 'youcomplete'
 " " Put your non-Plugin stuff after this line
 "colorscheme buddy
 syntax on
-colorscheme Benokai
+colorscheme 256-jungle
 

@@ -48,4 +48,5 @@ Plugin 'surround'
 "colorscheme buddy
 syntax on
 colorscheme 256-jungle
-
+set relativenumber 
+set number 

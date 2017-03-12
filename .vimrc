@@ -2,20 +2,20 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
- set rtp+=~/.vim/bundle/Vundle.vim
- call vundle#begin()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 " " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/.vim/bundle')
 "
 " " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'surround'
-
+"Plugin 'surround'
+Plugin 'Brolink.vim'
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
 " " plugin on GitHub repo
- Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " " Git plugin not hosted on GitHub
@@ -30,8 +30,8 @@ Plugin 'surround'
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 "
 " " All of your Plugins must be added before the following line
- call vundle#end()            " required
- filetype plugin indent on    " required
+call vundle#end()            " required
+filetype plugin indent on    " required
 " " To ignore plugin indent changes, instead use:
 " "filetype plugin on
 " "
